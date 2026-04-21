@@ -23,27 +23,19 @@
 
 ### 1. Встановлення залежностей
 
+У кореневій папці проєкту виконайте:
 ```bash
-# Backend
-cd backend
-npm install
-
-# Frontend
-cd frontend
-npm install
+npm run install:all
 ```
+*(Ця команда автоматично встановить залежності і для бекенду, і для фронтенду).*
 
 ### 2. Запуск серверів
 
+Для запуску всього проєкту однією командою (через `concurrently`):
 ```bash
-# Backend (порт 3001)
-cd backend
-npm run start:dev
-
-# Frontend (порт 5173)
-cd frontend
 npm run dev
 ```
+*(Бекенд запуститься на порту 3001, а фронтенд — на 5173).*
 
 ### 3. Використання
 
