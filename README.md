@@ -1,4 +1,4 @@
-# Meta-DB Visualizer
+# DB Visualizer
 
 Додаток для візуалізації та управління структурою бази даних PostgreSQL за принципом "Metadata-First".
 
